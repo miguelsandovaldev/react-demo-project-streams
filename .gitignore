@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 api/node_modules/.bin/is-ci
 api/node_modules/.bin/is-ci.cmd
 api/node_modules/.bin/is-ci.ps1
@@ -2846,3 +2847,28 @@ api/node_modules/yargs-parser/LICENSE.txt
 api/node_modules/yargs-parser/package.json
 api/node_modules/yargs-parser/README.md
 api/node_modules/yargs-parser/lib/tokenize-arg-string.js
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+>>>>>>> 02861b5be7b2cbd66ec995d1244b9f034514b089
